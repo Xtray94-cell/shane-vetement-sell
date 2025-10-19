@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Shane Vêtements Sell</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Shane Vêtements Sell</h1>
+    <nav>
+      <a href="#">Accueil</a>
+      <a href="#">Produits</a>
+      <a href="#">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="products">
+      <div class="product" data-name="T‑shirt noir" data-price="19.99">
+        <img src="https://via.placeholder.com/200" alt="T‑shirt noir">
+        <h2>T‑shirt noir</h2>
+        <p>19,99 €</p>
+        <button>Ajouter au panier</button>
+      </div>
+
+      <div class="product" data-name="Jean slim" data-price="39.99">
+        <img src="https://via.placeholder.com/200" alt="Jean slim">
+        <h2>Jean slim</h2>
+        <p>39,99 €</p>
+        <button>Ajouter au panier</button>
+      </div>
+
+      <div class="product" data-name="Veste en jean" data-price="59.99">
+        <img src="https://via.placeholder.com/200" alt="Veste en jean">
+        <h2>Veste en jean</h2>
+        <p>59,99 €</p>
+        <button>Ajouter au panier</button>
+      </div>
+    </section>
+
+    <aside class="cart">
+      <h2>🛒 Panier</h2>
+      <ul id="cart-items"></ul>
+      <p>Total : <span id="cart-total">0.00</span> €</p>
+    </aside>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Shane Vêtements Sell ‑ Tous droits réservés</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
